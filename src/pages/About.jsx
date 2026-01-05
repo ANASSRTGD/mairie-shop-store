@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 export default function About() {
-    return (
-          <div style={{ padding: '20px' }}>
-                <h2 style={{ fontSize: '26px', fontWeight: 'bold', marginBottom: '12px' }}>من نحن</h2>
-                      <p>
-                              MAIRIE SHOP متخصصون في بيع الملابس القطنية النسائية بجودة عالية وأسعار مناسبة.
-                                      نقدم مجموعات متنوعة بين الكاجوال والأنيق والمريح للنساء في المغرب.
-                                            </p>
-                                                </div>
-    )
-}
-    )
+  return (
+    <div style={{ padding: '20px' }}>
+      <h2 style={{ fontSize: '26px', fontWeight: 'bold', marginBottom: '12px' }}>من نحن</h2>
+      <p>
+        MAIRIE SHOP متخصصون في بيع الملابس القطنية النسائية بجودة عالية وأسعار مناسبة.
+        نقدم مجموعات متنوعة بين الكاجوال والأنيق والمريح للنساء في المغرب.
+      </p>
+    </div>
+  );
 }
